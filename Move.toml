@@ -1,0 +1,17 @@
+[package]
+name = "canopy-vesting-mock"
+version = "0.0.1"
+authors = ["0xHepha"]
+
+[addresses]
+aptos_framework = "0x1"
+deployer = "ed7c8eb88424e5a4ebaafe8393f1185cb464c7ba47ca7bacf516619c8bdbd821"
+
+user1 = "57efbb05f23a83c2fd7b3af1b3abc4096923097300e014d8912e7b0e70da27b7"
+user2 = "e07b59ed0a6f8432673cfd92ff1ed53d6552d27038afbf1491a2bfdde7c63ecf"
+
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-framework.git", subdir = "aptos-framework", rev = "mainnet" }
+AptosTokenObjects = { git = "https://github.com/aptos-labs/aptos-framework.git", subdir = "aptos-token-objects", rev = "mainnet" }
+AptosToken = { git = "https://github.com/aptos-labs/aptos-framework.git", subdir = "aptos-token", rev = "mainnet" }
